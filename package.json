@@ -1,0 +1,19 @@
+{
+  "name": "bot-discord.js-kzxcorp",
+  "version": "1.0.0",
+  "description": "A discord bot writed in JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KellianKizax/Bot-discord.js-KZXCorp.git"
+  },
+  "author": "Kellian Goffic",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KellianKizax/Bot-discord.js-KZXCorp/issues"
+  },
+  "homepage": "https://github.com/KellianKizax/Bot-discord.js-KZXCorp#readme"
+}
