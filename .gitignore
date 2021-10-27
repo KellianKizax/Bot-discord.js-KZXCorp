@@ -3,3 +3,6 @@ node_modules
 
 # private environment file
 .env
+
+# ESLint rules
+.eslintrc.json
