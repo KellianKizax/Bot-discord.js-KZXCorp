@@ -1,5 +1,5 @@
 /*
-filename : deploy-commands.js
+filename : deploy-dev-commands.js
 description : Script used to register and update the slash commands for the bot.
 author : KellianKizax
 creation date : 27/10/2021
