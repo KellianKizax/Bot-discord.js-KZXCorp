@@ -18,6 +18,7 @@
   "homepage": "https://github.com/KellianKizax/Bot-discord.js-KZXCorp#readme",
   "dependencies": {
     "axios": "^0.24.0",
-    "discord.js": "^13.2.0"
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0"
   }
 }
