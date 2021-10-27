@@ -16,5 +16,6 @@ module.exports = {
 		await interaction.reply(`
 		**Server name:** ${interaction.guild.name}\n`
 		+ `**Total members:** ${interaction.guild.memberCount}`);
+		console.log('success');
 	},
 };

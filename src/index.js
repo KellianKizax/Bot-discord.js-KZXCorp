@@ -30,14 +30,18 @@ for (const file of commandFiles) {
 
 
 // Bot Ready
-client.once('ready', () => {
-	console.log(`Logged in as ${client.user.tag} !`);
+client.once('ready', c => {
+	console.log(`Logged in as ${c.user.tag} !`);
 });
 
 
 // Bot Commands
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isCommand()) return;
+	console.log(
+		'[', interaction.member.guild.name, ']',
+		interaction.user.username, ':',
+		interaction.commandName);
 
 	const command = client.commands.get(interaction.commandName);
 

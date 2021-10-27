@@ -16,5 +16,6 @@ module.exports = {
 		await interaction.reply(`
 		**Your tag:** ${interaction.user.tag}\n`
 		+ `**Your id:** ${interaction.user.id}`);
+		console.log('success');
 	},
 };

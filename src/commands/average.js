@@ -29,5 +29,6 @@ module.exports = {
 		res = res / values.length;
 
 		await interaction.reply(`${res}`);
+		console.log('success');
 	},
 };
